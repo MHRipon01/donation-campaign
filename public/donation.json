@@ -1,125 +1,142 @@
 [
+    
     {
         "picture": "https://i.ibb.co/3p9w2cP/Health.png",
         "title": "Clean water for children",
         "category": "Health",
-        "category_bg": "#FF5733",
-        "card_bg": "#C70039",
-        "text_button_bg": "#900C3F",
-        "description": "This is a health donation campaign",
+        "category_bg": "#AEC8FF",
+        "card_bg": "#D9E5FF",
+        "text_button_bg": "#0052FF",
+        "description": "Donations in the health category go towards providing essential medical services and supplies to those in need. This could include funding for surgeries, medications, and other treatments, as well as support for healthcare facilities and research institutions. Your contribution can help save lives and improve the quality of life for individuals around the world.",
         "price": 100
     },
+
+    
     {
         "picture": "https://i.ibb.co/9pw1WVy/Education.png",
         "title": "Good education",
         "category": "Education",
-        "category_bg": "#581845",
-        "card_bg": "#DAF7A6",
-        "text_button_bg": "#FFC300",
-        "description": "This is an education donation campaign",
+        "category_bg": "#FFC3C5",
+        "card_bg": "#FFE3E4",
+        "text_button_bg": "#FF444A",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
         "price":200
     },
+
+   
     {
         "picture": "https://i.ibb.co/Zf6B7nZ/Clothing.png",
         "title": "Used Clothing Drive",
         "category": "Clothing",
-        "category_bg": "#FF5733",
-        "card_bg": "#C70039",
-        "text_button_bg": "#900C3F",
-        "description": "This is an clothing donation campaign",
+        "category_bg": "#D4ECC1",
+        "card_bg": "#EBF6E2",
+        "text_button_bg": "#80C549",
+        "description": "This is an clothing Donations in the clothing category provide essential items like coats, shoes, and other apparel to individuals and families who cannot afford them. Your contribution can help people stay warm in the winter, provide professional attire for job interviews, and give comfort to those in need.",
         "price": 300
     },
+
+    
     {
         "picture": "https://i.ibb.co/cgJj4Tb/Food.png",
         "title": "Better Food for Everyone",
         "category": "Food",
-        "category_bg": "#581845",
-        "card_bg": "#DAF7A6",
-        "text_button_bg": "#FFC300",
-        "description": "This is an food donation campaign",
+        "category_bg": "#FDD2C4",
+        "card_bg": "#FEEAE3",
+        "text_button_bg": "#F87147",
+        "description": "Donations in the food category help combat hunger and malnutrition. Your contribution can support food banks, soup kitchens, and other organizations that provide meals to those in need. Additionally, it can fund programs that promote sustainable agriculture and food security.",
         "price": 400
+    },
+
+    
+    {
+        "picture": "https://i.ibb.co/cgJj4Tb/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg": "#FDD2C4",
+        "card_bg": "#FEEAE3",
+        "text_button_bg": "#F87147",
+        "description": "Donations in the food category help combat hunger and malnutrition. Your contribution can support food banks, soup kitchens, and other organizations that provide meals to those in need. Additionally, it can fund programs that promote sustainable agriculture and food security.",
+        "price": 440
+    },
+
+    
+   
+
+     
+      {
+        "picture": "https://i.ibb.co/Zf6B7nZ/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg": "#D4ECC1",
+        "card_bg": "#EBF6E2",
+        "text_button_bg": "#80C549",
+        "description": "This is an  Donations in the clothing category provide essential items like coats, shoes, and other apparel to individuals and families who cannot afford them. Your contribution can help people stay warm in the winter, provide professional attire for job interviews, and give comfort to those in need.",
+        "price": 330
+    },
+   
+
+    
+    {
+        "picture": "https://i.ibb.co/9pw1WVy/Education.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg": "#FFC3C5",
+        "card_bg": "#FFE3E4",
+        "text_button_bg": "#FF444A",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "price": 220
     },
 
     {
         "picture": "https://i.ibb.co/3p9w2cP/Health.png",
         "title": "Clean water for children",
         "category": "Health",
-        "category_bg": "#FF5733",
-        "card_bg": "#C70039",
-        "text_button_bg": "#900C3F",
-        "description": "This is a health donation campaign",
-        "price": 100
-    },
-    {
-        "picture": "https://i.ibb.co/9pw1WVy/Education.png",
-        "title": "Good education",
-        "category": "Education",
-        "category_bg": "#581845",
-        "card_bg": "#DAF7A6",
-        "text_button_bg": "#FFC300",
-        "description": "This is an education donation campaign",
-        "price": 200
-    },
-    {
-        "picture": "https://i.ibb.co/Zf6B7nZ/Clothing.png",
-        "title": "Used Clothing Drive",
-        "category": "Clothing",
-        "category_bg": "#FF5733",
-        "card_bg": "#C70039",
-        "text_button_bg": "#900C3F",
-        "description": "This is an clothing donation campaign",
-        "price": 300
-    },
-    {
-        "picture": "https://i.ibb.co/cgJj4Tb/Food.png",
-        "title": "Better Food for Everyone",
-        "category": "Food",
-        "category_bg": "#581845",
-        "card_bg": "#DAF7A6",
-        "text_button_bg": "#FFC300",
-        "description": "This is an food donation campaign",
-        "price": 400
+        "category_bg": "#AEC8FF",
+        "card_bg": "#D9E5FF",
+        "text_button_bg": "#0052FF",
+        "description": "Donations in the health category go towards providing essential medical services and supplies to those in need. This could include funding for surgeries, medications, and other treatments, as well as support for healthcare facilities and research institutions. Your contribution can help save lives and improve the quality of life for individuals around the world.",
+        "price": 110
     },
 
     {
         "picture": "https://i.ibb.co/3p9w2cP/Health.png",
         "title": "Clean water for children",
         "category": "Health",
-        "category_bg": "#FF5733",
-        "card_bg": "#C70039",
-        "text_button_bg": "#900C3F",
-        "description": "This is a health donation campaign",
-        "price": 100
+        "category_bg": "#AEC8FF",
+        "card_bg": "#D9E5FF",
+        "text_button_bg": "#0052FF",
+        "description": "Donations in the health category go towards providing essential medical services and supplies to those in need. This could include funding for surgeries, medications, and other treatments, as well as support for healthcare facilities and research institutions. Your contribution can help save lives and improve the quality of life for individuals around the world.",
+        "price": 550
     },
     {
         "picture": "https://i.ibb.co/9pw1WVy/Education.png",
         "title": "Good education",
         "category": "Education",
-        "category_bg": "#581845",
-        "card_bg": "#DAF7A6",
-        "text_button_bg": "#FFC300",
-        "description": "This is an education donation campaign",
-        "price": 200
+        "category_bg": "#FFC3C5",
+        "card_bg": "#FFE3E4",
+        "text_button_bg": "#FF444A",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "price": 250
     },
     {
         "picture": "https://i.ibb.co/Zf6B7nZ/Clothing.png",
         "title": "Used Clothing Drive",
         "category": "Clothing",
-        "category_bg": "#FF5733",
-        "card_bg": "#C70039",
-        "text_button_bg": "#900C3F",
-        "description": "This is an clothing donation campaign",
-        "price": 300
+        "category_bg": "#D4ECC1",
+        "card_bg": "#EBF6E2",
+        "text_button_bg": "#80C549",
+        "description": "This is an  Donations in the clothing category provide essential items like coats, shoes, and other apparel to individuals and families who cannot afford them. Your contribution can help people stay warm in the winter, provide professional attire for job interviews, and give comfort to those in need.",
+        "price": 303
     },
     {
         "picture": "https://i.ibb.co/cgJj4Tb/Food.png",
         "title": "Better Food for Everyone",
         "category": "Food",
-        "category_bg": "#581845",
-        "card_bg": "#DAF7A6",
-        "text_button_bg": "#FFC300",
-        "description": "This is an food donation campaign",
-        "price": 400
+        "category_bg": "#FDD2C4",
+        "card_bg": "#FEEAE3",
+        "text_button_bg": "#F87147",
+        "description": "Donations in the food category help combat hunger and malnutrition. Your contribution can support food banks, soup kitchens, and other organizations that provide meals to those in need. Additionally, it can fund programs that promote sustainable agriculture and food security.",
+        "price": 401
     }
      
 ]
