@@ -18,9 +18,7 @@ storedDonations.push(id)
 localStorage.setItem('donation-added', JSON.stringify(storedDonations))
 console.log('exist korena' , storedDonations);
 }
-if(exists){
-    toast('Already added')
-}
+
 }
 
 export {getStoredDonation , saveDonation};
