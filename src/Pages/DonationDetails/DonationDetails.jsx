@@ -10,22 +10,22 @@ const DonationDetails = () => {
 
     const [donation , setDonation ] = useState()
 
-    const {category} = useParams()
+    const {id} = useParams()
 
     const donations = useLoaderData()
 
     useEffect(() => {
-        const findDonation = donations?.find(donation => donation.category=== category)
+        const findDonation = donations?.find(donation => donation.id=== id)
 
        setDonation(findDonation);
-    },[category ,donations])
+    },[donations ,id])
 
     // console.log(donation);
 
     return (
         <div>
         <Donation donation={donation}></Donation>
-        {/* <DonationCard donation={donation}></DonationCard> */}
+        
 
            
 

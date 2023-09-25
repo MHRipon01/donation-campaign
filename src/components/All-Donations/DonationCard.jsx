@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
 const DonationCard = ({ donation }) => {
-  const { picture ,category,title ,category_bg ,card_bg,text_button_bg, } = donation || {};
+  const { picture ,category,title ,category_bg ,card_bg,text_button_bg, id } = donation || {};
 // console.log(text_button_bg);
   // console.log(picture);
 // const bg= `bg-[${text_button_bg}] `
   return (
-    <Link to={`/donationDetails/${category}`}>
+    <Link to={`/donationDetails/${id}`}>
     <div className="rounded-lg" style={{backgroundColor:card_bg}}>
         {/* <h1 className={text_button_bg.toString()}>donation</h1> */}
       <div>
@@ -18,7 +18,7 @@ const DonationCard = ({ donation }) => {
        <h1  style={{color:text_button_bg}}>{category}</h1>
        </div>
        
-        <h3 className="font-semibold m-2 text-xl" style={{color:text_button_bg}}>{title}</h3>
+        <h3 className="font-semibold m-2 text-xl pb-3" style={{color:text_button_bg}}>{title}</h3>
         
       </div>
     </div>
