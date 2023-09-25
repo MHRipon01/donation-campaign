@@ -1,3 +1,4 @@
+import { toast } from "react-toastify"
 
 const getStoredDonation = () => {
     const storedDonation = localStorage.getItem('donation-added')
@@ -18,8 +19,7 @@ localStorage.setItem('donation-added', JSON.stringify(storedDonations))
 console.log('exist korena' , storedDonations);
 }
 if(exists){
-    alert('ase')
-    console.log('exist kore',storedDonations);
+    toast('Already added')
 }
 }
 
