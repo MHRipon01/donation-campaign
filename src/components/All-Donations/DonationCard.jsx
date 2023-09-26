@@ -11,7 +11,7 @@ const DonationCard = ({ donation }) => {
   return (
     <Link to={`/donationDetails/${id}`}>
     <div className="rounded-lg" style={{backgroundColor:card_bg}}>
-        {/* <h1 className={text_button_bg.toString()}>donation</h1> */}
+      
       <div>
         <img className="w-full" src={picture} alt="" />
        <div className="w-fit rounded m-3 px-2" style={{backgroundColor: category_bg}}>

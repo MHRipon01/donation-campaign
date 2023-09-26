@@ -46,13 +46,13 @@ const AllDonationShow = () => {
     <div >
      
      <div className="">
-     <ul className="grid grid-cols-1 w-full lg:grid-cols-2 ">
+     <ul className="grid grid-cols-1  justify-center items-center lg:grid-cols-2 ">
         {
             isShowAll ? displayDonations.map((donation) => (
                 <li key={donation.id} >
                   <span  >
                     <div className="mx-4">
-                      <div style={{ backgroundColor: donation.card_bg }} className="relative flex w-full max-w-[45rem] gap-4   my-3  rounded-xl   text-gray-700 shadow-md">
+                      <div style={{ backgroundColor: donation.card_bg }} className="relative flex w-full mx-auto gap-4   my-3  rounded-xl   text-gray-700 shadow-md">
                         <div className="relative m-0 w-2/5  overflow-hidden rounded-xl  rounded-r-none bg-white text-gray-700">
                           <img
                             src={donation.picture}
@@ -90,7 +90,7 @@ const AllDonationShow = () => {
                 <li key={donation.id} >
                   <span  >
                     <div className="mx-4">
-                      <div style={{ backgroundColor: donation.card_bg }} className="relative flex w-full max-w-[45rem] gap-4  my-3  rounded-xl   text-gray-700 shadow-md">
+                      <div style={{ backgroundColor: donation.card_bg }} className="relative flex w-full  gap-4  my-3  rounded-xl   text-gray-700 shadow-md">
                         <div className="relative m-0 w-2/5  overflow-hidden rounded-xl  rounded-r-none bg-white text-gray-700">
                           <img
                             src={donation.picture}
@@ -128,7 +128,7 @@ const AllDonationShow = () => {
      </div>
      
      {
-        !isShowAll && <button onClick={() => setIsShowAll(!isShowAll)} className="bg-green-700 block mx-auto p-2  px-5 font-semibold text-white rounded-lg">See All </button>
+       ( !isShowAll &&  displayDonations.length> 4) && <button onClick={() => setIsShowAll(!isShowAll)} className="bg-green-700 block mx-auto p-2  px-5 font-semibold text-white rounded-lg">See All </button>
      }
     </div>
   );

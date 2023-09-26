@@ -22,17 +22,17 @@ import Statistics from "../Pages/Statistics/Statistics";
                 {
                     path: '/donationDetails/:id',
                     element: <DonationDetails></DonationDetails>,
-                    loader: () => fetch('/public/donation.json')
+                    loader: () => fetch('/donation.json')
                 },
                 {
                     path:'/donation',
                     element:<Donation></Donation>,
-                    loader: () => fetch('/public/donation.json')
+                    loader: () => fetch('/donation.json')
                 },
                 {
                     path: '/alldonation',
                     element: <AllDonationShow ></AllDonationShow>,
-                    loader:() => fetch('/public/donation.json')
+                    loader:() => fetch('/donation.json')
                 },
                 {
                     path: '/statistics',
